@@ -1,3 +1,4 @@
+#Perl Script to get first 20 prime numbers 
 open (NEW,">PrimeFile.txt") or die ("Open Error");
 $header = "Prime Numbers";
 print NEW "$header\n";
